@@ -1,5 +1,7 @@
 package org.capgemini.Day6_Assignment.Problem_1;
 
+
+
 // Main class to compare the performance of Linear Search and Binary Search
 public class CompareLinearSearchBinarySearch {
     public static void main(String[] args) {
@@ -68,3 +70,4 @@ public class CompareLinearSearchBinarySearch {
         return false; // Return false if the target is not found
     }
 }
+
