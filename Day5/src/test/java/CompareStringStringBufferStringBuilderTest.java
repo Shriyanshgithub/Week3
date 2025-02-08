@@ -1,9 +1,10 @@
+
 import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 
-import static Day5.Problem_3.CompareStringStringBufferStringBuilder.*;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
+import static org.capgemini.Day5_Assignment.Problem_3.CompareStringStringBufferStringBuilder.*;
+import static org.junit.jupiter.api.Assertions.*;
 
     public class CompareStringStringBufferStringBuilderTest {
 
@@ -19,6 +20,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
             // Assert that the time taken is greater than 0
             assertTrue(timeTaken > 0, "String performance time should be greater than 0");
         }
+
+
+
 
         @Test
         public void testStringBuilderPerformance() {
