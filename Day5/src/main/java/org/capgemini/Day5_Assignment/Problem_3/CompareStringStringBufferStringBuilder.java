@@ -1,4 +1,4 @@
-package Day5_Assignment.Problem_3;
+package org.capgemini.Day5_Assignment.Problem_3;
 
 import java.util.Arrays;
 
